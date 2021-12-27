@@ -220,6 +220,12 @@ body {
   text-decoration: none;
 }
 
+.ama-division-gutter-list a.active {
+  color: var(--semantic--ama-violet--main);
+
+}
+
+
 .ama-division-gutter-list li {
   margin-bottom: 15px;
 }
@@ -237,12 +243,17 @@ body {
 
 .ama-division-content a {
   text-decoration: none;
+
   color: var(--ama-black--60);
 }
 
 .ama-division-content li.breadcrumb-item.active {
   color: var(--semantic--ama-violet--main);
 } 
+
+.ama-division-content li a.active {
+  color: var(--semantic--ama-violet--main);
+}
 
 .ama-footer {
   background-color: var(--ama-neutral--100);
