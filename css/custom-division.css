@@ -245,3 +245,8 @@ body {
   margin-bottom: 0;
 }
 
+.ama-division-gutter-list li {
+  background: url(../image/division-item-icon-newspaper.png) no-repeat left top; /* <-- change `left` & `top` too for extra control */
+  padding: 0 0 0 35px;
+  list-style: none;
+  margin: 0 0 10px 0;
