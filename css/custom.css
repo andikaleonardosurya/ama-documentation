@@ -78,7 +78,7 @@ body {
 
 .ama-container-nav-bar li.nav-item .active {
     background-color: var(--ama-neutral--90);
-    color: var(--ama-neutral--10) !important;
+    font:var(--font-family-roboto-bold) ;
 }
 
 @media only screen and (max-width: 767px) {
@@ -272,3 +272,4 @@ body {
 .ama-footer-copyright {
     color: var(--ama-black--10) !important;
 }
+
