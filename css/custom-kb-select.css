@@ -77,8 +77,8 @@ body {
 }
 
 .ama-container-nav-bar li.nav-item .active {
-    background-color: var(--ama-neutral--90);
-    font:var(--font-family-roboto-bold) ;
+  background-color: var(--ama-neutral--90);
+  color: var(--ama-neutral--10) !important;
 }
 
 @media only screen and (max-width: 767px) {
