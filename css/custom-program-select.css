@@ -52,11 +52,11 @@ body {
 }
 
 .ama-container-header {
-    background-color: var(--ama-black--80) !important;
+    background-color: var(--ama-white-default) !important;
     padding: 0 !important;
-    -webkit-box-shadow: 0 4px 4px -4px var(--ama-black--80) !important;
-	   -moz-box-shadow: 0 4px 4px -4px var(--ama-black--80) !important;
-	        box-shadow: 0 4px 4px -4px var(--ama-black--80) !important;
+    -webkit-box-shadow: 0 8px 6px -6px var(--ama-black--10) !important;
+	   -moz-box-shadow: 0 8px 6px -6px var(--ama-black--10) !important;
+	        box-shadow: 0 8px 6px -6px var(--ama-black--10) !important;
 }
 
 .ama-container-header .navbar-brand img {
@@ -110,7 +110,7 @@ body {
   .headlinelarge-20px {
     font-size: var(--font-size-l);
     font-style: normal;
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: 0;
   }
   
@@ -172,29 +172,9 @@ body {
   }
   
 .hero-section {
-    height:auto ;
+    height: 351px;
     color: var(--ama-white-default);
-    background-image: url(../image/BG-hero-section-division-2.png);
-    background-size: cover;
-}
-
-.hero-text {
-  text-align: left;
-  position: relative ;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.btn-landing-page-hero-section {
-  color: var(--ama-black--100);
-  background-color: var(--ama-black--10); 
-}
-
-.btn-landing-page-hero-section:hover {
-  color: var(--ama-black--100);
-  background-color: var(--ama-black--10);
+    background: url(../image/BG-hero-section-division.png) no-repeat center center var(--ama-black--100);
 }
 
 .has-search .form-control {
@@ -226,36 +206,52 @@ body {
     color: var(--ama-black--30) !important;
 }
 
-.landing-page-division-text .text-1 {
-    color: var(--semantic--ama-violet--main) ;
+.ama-container-division {
+  background-color: var(--ama-neutral--20) !important;
 }
 
-.landing-page-division-text .paragraph-division-text {
-    color: var(--ama-black--50);
+.ama-division-gutter-list {
+  margin-bottom: 0;
+  text-decoration: none;
 }
 
-.landing-page-division-text .btn-lp-division-text {
-    color: var(--ama-black--10);
-    background-color: var(--semantic--ama-violet--main);
+.ama-division-gutter-list a {
+  color: var(--ama-black--50);
+  text-decoration: none;
+}
+
+.ama-division-gutter-list a.active {
+  color: var(--semantic--ama-violet--main);
+
 }
 
 
-.landing-page-division-text .btn-lp-division-text:hover {
-    color: var(--semantic--ama-violet--main);
-    background-color: white;
-    border-color: var(--semantic--ama-violet--main);
+.ama-division-gutter-list li {
+  margin-bottom: 15px;
 }
 
-.landing-page-division-text .btn-lp-division-text:focus {
-    color: var(--semantic--ama-violet--pressed);
-    background-color: white;
-    border-color: var(--semantic--ama-violet--pressed);
+.ama-division-gutter-list li:last-child {
+  margin-bottom: 0;
 }
 
-.btn-ama-black:focus {
-    color: #fff;
-    background-color: var(--ama-neutral--90);
-    border-color: var(--ama-neutral--90);
+.ama-division-gutter-list li {
+  background: url(../image/division-item-icon-newspaper.png) no-repeat left top; /* <-- change `left` & `top` too for extra control */
+  padding: 0 0 0 35px;
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+
+.ama-program-content a {
+  text-decoration: none;
+  color: var(--ama-black--60);
+}
+
+.ama-program-content li.breadcrumb-item.active {
+  color: var(--semantic--ama-violet--main);
+} 
+
+.ama-program-content li a.active {
+  color: var(--semantic--ama-violet--main);
 }
 
 .ama-footer {
