@@ -11,52 +11,53 @@
     <link rel="icon" type="image/x-icon" href="image/fav-icon-amoeba.png">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./font-awesome/css/all.min.css" rel="stylesheet">
-    <link href="./css/custom.css" rel="stylesheet">
-    <link href="./css/custom-landing-page.css" rel="stylesheet">
-
+    <link href="./css/custom-tutorial.css" rel="stylesheet">
 </head>
 
 <body>
-    <header class="site-header sticky-top ama-container-header">
-        <nav class="container navbar navbar-dark navbar-expand-md bg-faded ama-container-nav-bar">
-            <a href="/" class="navbar-brand d-flex w-25 mr-auto">
-                <img src="image/Logo-amoeba-white.png">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" href="#collapsingNavbar3"
-                role="button" aria-expanded="false" aria-controls="collapsingNavbar3">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-                <div class=".d-none .d-sm-block .d-md-none border-bottom my-4"></div>
-                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link rounded" aria-current="page" href="kb-select.html">Design</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Technology</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Incubation</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-expanded="false">Program</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Telkom Athon</a></li>
-                            <li><a class="dropdown-item" href="#">AFAM</a></li>
-                            <li><a class="dropdown-item" href="#">Hackidea</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">More</a></li>
-                        </ul>
-                    </li>
-                    </li>
-                </ul>
+    <header class="sticky-top ama-container-header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                <a href="/" class="navbar-brand d-flex w-25 mr-auto">
+                    <img src="image/Logo-amoeba-white.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Incubation</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Program
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Telkom Athon</a></li>
+                                <li><a class="dropdown-item" href="#">AFAM</a></li>
+                                <li><a class="dropdown-item" href="#">Hack Idea</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search Documentation"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
         </nav>
     </header>
-
     <section id="hero" class="hero-section">
         <div class="container">
             <div class="row px-4 pt-5 align-items-center">

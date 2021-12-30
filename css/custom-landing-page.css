@@ -72,6 +72,25 @@ body {
     height: 80px;
 }
 
+.ama-container-nav-bar .btn-search-nav-bar {
+  color: var(--ama-black--10);
+  background-color: var(--semantic--ama-violet--main);
+}
+
+
+.ama-container-nav-bar .btn-search-nav-bar:hover {
+  color: var(--semantic--ama-violet--main);
+  background-color: var(--ama-black--80);
+  border-color: var(--semantic--ama-violet--main);
+}
+
+.ama-container-nav-bar .btn-search-nav-bar:focus {
+  color: var(--semantic--ama-violet--pressed);
+  background-color: var(--ama-black--80);
+  border-color: 6px var(--semantic--ama-violet--pressed);
+}
+
+
 @media only screen and (min-width: 768px) {
     .ama-container-nav-bar li.nav-item {
         margin: 0 16px 0 16px;
@@ -188,14 +207,23 @@ body {
 }
 
 .btn-landing-page-hero-section {
-  color: var(--ama-black--100);
-  background-color: var(--ama-black--10); 
+  color: var(--ama-black--80);
+  background-color: var(--ama-neutral--10);
+  border-color: var(--ama-neutral--10);
 }
 
 .btn-landing-page-hero-section:hover {
   color: var(--ama-black--100);
-  background-color: var(--ama-black--10);
+  background-color: var(--ama-black--20);
+  border-color: var(--ama-neutral--100);
 }
+
+.btn-landing-page-hero-section:focus {
+  color: #fff;
+  background-color: var(--ama-neutral--90);
+  border-color: var(--ama-neutral--90);
+}
+
 
 .has-search .form-control {
     padding-left: 2.375rem;

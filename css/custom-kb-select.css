@@ -70,6 +70,25 @@ body {
   height: 80px;
 }
 
+.ama-container-nav-bar .btn-search-nav-bar {
+color: var(--ama-black--10);
+background-color: var(--semantic--ama-violet--main);
+}
+
+
+.ama-container-nav-bar .btn-search-nav-bar:hover {
+color: var(--semantic--ama-violet--main);
+background-color: var(--ama-black--80);
+border-color: var(--semantic--ama-violet--main);
+}
+
+.ama-container-nav-bar .btn-search-nav-bar:focus {
+color: var(--semantic--ama-violet--pressed);
+background-color: var(--ama-black--80);
+border-color: 6px var(--semantic--ama-violet--pressed);
+}
+
+
 @media only screen and (min-width: 768px) {
   .ama-container-nav-bar li.nav-item {
       margin: 0 16px 0 16px;
@@ -84,6 +103,12 @@ body {
 @media only screen and (max-width: 767px) {
   .ama-container-nav-bar li.nav-item .active {
   padding: 8px 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ama-container-nav-bar a.nav-link .active .rounded {
+  padding: 4px 16px;
   }
 }
 
@@ -172,7 +197,8 @@ body {
 .hero-section {
     height: 351px;
     color: var(--ama-white-default);
-    background: url(../image/BG-hero-section-2.png) no-repeat center center var(--ama-black--100);
+    background: url(../image/Hero-BG-kb-select.png) no-repeat center center var(--ama-black--100);
+    background-size: cover;
 }
 
 .has-search .form-control {
@@ -238,22 +264,23 @@ body {
     border: solid 4px var(--semanticama-violetborder) !important;
 }
 
-.btn-ama-black {
-    color: #fff;
-    background-color: var(--ama-neutral--100);
-    border-color: var(--semantic--ama-violet--main);
+
+.btn-ama-select {
+  color: var(--ama-black--10);
+  background-color: var(--semantic--ama-violet--main);
+  border-color: var(--semantic--ama-violet--main);
 }
 
-.btn-ama-black:hover {
-    color: var(--ama-black--100);
-    background-color: white;
-    border-color: var(--ama-neutral--100);
+.btn-ama-select:hover {
+  color: var(--semantic--ama-violet--main);
+  background-color: white;
+  border-color: var(--semantic--ama-violet--main);
 }
 
-.btn-ama-black:focus {
-    color: #fff;
-    background-color: var(--ama-neutral--90);
-    border-color: var(--ama-neutral--90);
+.btn-ama-select:focus {
+  color: var(--semantic--ama-violet--pressed);
+  background-color: white;
+  border-color: var(--semantic--ama-violet--pressed);
 }
 
 .ama-footer {
