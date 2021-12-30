@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <title>Amoeba Documentation</title>
+    <link rel="icon" type="image/x-icon" href="image/fav-icon-amoeba.png">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="./css/custom-kb-detail.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header sticky-top ama-container-header">
+        <nav class="container navbar navbar-dark navbar-expand-md bg-faded ama-container-nav-bar">
+            <a href="index.html" class="navbar-brand d-flex w-25 mr-auto">
+                <img src="image/Logo-amoeba-white.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" href="#collapsingNavbar3"
+                role="button" aria-expanded="false" aria-controls="collapsingNavbar3">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                <div class=".d-none .d-sm-block .d-md-none border-bottom my-4"></div>
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active rounded" href="kb-select.html">Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Incubation</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Program</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Telkom Athon</a></li>
+                            <li><a class="dropdown-item" href="#">AFAM</a></li>
+                            <li><a class="dropdown-item" href="#">Hackidea</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">More</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                </ul>
+                <form class="d-flex w-50">
+                    <input class="form-control me-2" type="search" placeholder="Search Documentation"
+                        aria-label="Search">
+                    <a class="btn btn-search-nav-bar" type="submit">Search</a>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid my-5 mx-auto">
+        <div class="container row border border-3 border-secondary">
+            <div class="col-3 bg-primary d-flex flex-column align-items-start">
+                <aside>
+                    <ul class="navbar-nav d-flex flex-column mt-5 w-100">
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link text-light pl-4">Home</a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link text-light pl-4">About</a>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link text-light pl-4">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown w-100">
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1"
+                                role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first
+                                element</a>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                        <div class="card card-body">
+                                            Some placeholder content for the first collapse component of this
+                                            multi-collapse example. This panel is hidden by default but revealed when
+                                            the user activates the relevant trigger.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+                                <li><a href="#" class="dropdown-item text-light pl-4 p-2">Service 01</a></li>
+                                <li><a href="#" class="dropdown-item text-light pl-4 p-2">Service 02</a></li>
+                                <li><a href="#" class="dropdown-item text-light pl-4 p-2">Service 03</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item w-100">
+                            <a href="#" class="nav-link text-light pl-4">Contact</a>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="col-9 bg-primary">
+                Flex Container
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- <div class="row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <div class="position-sticky pt-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Orders
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Customers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Reports
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Integrations
+                        </a>
+                    </li>
+                </ul>
+
+                <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                    <span>Saved reports</span>
+                </h6>
+                <ul class="nav flex-column mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Current month
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Last quarter
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Social engagement
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Year-end sale
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div> -->
+
+    <footer class="ama-footer w-100 py-5">
+        <div class="container py-5">
+            <div class="row border-bottom">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+                        aria-label="Bootstrap">
+                        <img src="./image/Logo-amoeba-footer.png">
+                    </a>
+                    <ul class="list-unstyled small text-muted">
+                        <li class="mb-2">Designed and built with all the love in the world by the <a
+                                href="/docs/5.1/about/team/">Amoeba Management Team</a> with the help of <a
+                                href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.
+                        </li>
+                        <li class="mb-2">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE"
+                                target="_blank" rel="license noopener">AMA</a>, docs <a
+                                href="https://creativecommons.org/licenses/by/3.0/" target="_blank"
+                                rel="license noopener">CC BY 3.0</a>.</li>
+                        <li class="mb-2">Currently v1.0.0.</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>Design</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Section 1</a></li>
+                        <li class="mb-2"><a href="#">Section 2</a></li>
+                        <li class="mb-2"><a href="#">Section 3</a></li>
+                        <li class="mb-2"><a href="#">Section 4</a></li>
+                        <li class="mb-2"><a href="#">Section 5</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Technology</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Section 1</a></li>
+                        <li class="mb-2"><a href="#">Section 2</a></li>
+                        <li class="mb-2"><a href="#">Section 3</a></li>
+                        <li class="mb-2"><a href="#">Section 4</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Incubation</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Section 1</a></li>
+                        <li class="mb-2"><a href="#">Section 2</a>
+                        </li>
+                        <li class="mb-2"><a href="#">Section 3</a></li>
+                        <li class="mb-2"><a href="#">Section 4</a></li>
+                        <li class="mb-2"><a href="#">Section 5</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Telkom Athon</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">Section 1</a></li>
+                        <li class="mb-2"><a href="#">Section 2</a>
+                        </li>
+                        <li class="mb-2"><a href="#">Section 3</a></li>
+                        <li class="mb-2"><a href="#">Section 4</a></li>
+                        <li class="mb-2"><a href="#">Section 5</a></li>
+                        <li class="mb-2"><a href="#">Section 6</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="ama-footer-copyright text-center">Copyright 2021 | Amoeba Management</div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
