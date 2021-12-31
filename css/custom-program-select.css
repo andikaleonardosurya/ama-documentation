@@ -204,6 +204,7 @@ border-color: 6px var(--semantic--ama-violet--pressed);
     height: 351px;
     color: var(--ama-white-default);
     background: url(../image/hero-bg-program-select.png) no-repeat center center var(--ama-black--100);
+    background-size: cover;
 }
 
 .has-search .form-control {
