@@ -197,7 +197,7 @@ border-color: 6px var(--semantic--ama-violet--pressed);
 .hero-section {
     height: 351px;
     color: var(--ama-white-default);
-    background: url(../image/Hero-BG-kb-select.png) no-repeat center center var(--ama-black--100);
+    background: url(../image/hero-BG-kb-select.png) no-repeat center center var(--ama-black--100);
     background-size: cover;
 }
 

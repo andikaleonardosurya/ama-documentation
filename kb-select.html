@@ -16,7 +16,7 @@
 
 <body>
     <header class="site-header sticky-top ama-container-header">
-        <nav class="container navbar navbar-dark navbar-expand-lg bg-faded ama-container-nav-bar">
+        <nav class="container navbar navbar-dark navbar-expand-md bg-faded ama-container-nav-bar">
             <a href="index.html" class="navbar-brand d-flex w-25 mr-auto">
                 <img src="image/Logo-amoeba-white.png">
             </a>
@@ -26,9 +26,9 @@
             </button>
             <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
                 <div class=".d-none .d-sm-block .d-md-none border-bottom my-4"></div>
-                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active rounded" href="kb-select.html">Design</a>
+                        <a class="nav-link active rounded" aria-current="page" href="kb-select.html">Design</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Technology</a>
@@ -46,11 +46,16 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">More</a></li>
+                            <li><a class="dropdown-item" href="program-select.html">More</a></li>
                         </ul>
                     </li>
                     </li>
                 </ul>
+                <form class="d-flex w-50">
+                    <input class="form-control me-2" type="search" placeholder="Search Documentation"
+                        aria-label="Search">
+                    <a class="btn btn-search-nav-bar" type="submit">Search</a>
+                </form>
             </div>
         </nav>
     </header>
